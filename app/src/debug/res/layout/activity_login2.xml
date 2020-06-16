@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    android:background="@mipmap/backgroundfadia_foreground"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:onClick="message7"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="314dp"
+            android:layout_marginRight="314dp"
+
+            android:background="@drawable/rogoo_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/m_name"
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+
+            android:layout_marginStart="25dp"
+
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+
+            android:layout_marginTop="90dp"
+
+            android:background="@drawable/ciruclar_text_view"
+            android:drawableRight="@drawable/name"
+            android:hint="Name"
+            android:padding="30dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
+        <EditText
+            android:id="@+id/m_email1"
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+
+            android:layout_marginStart="25dp"
+
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="27dp"
+
+
+            android:background="@drawable/ciruclar_text_view"
+            android:drawableRight="@drawable/email"
+
+            android:hint="Email"
+            android:padding="30dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_name" />
+
+        <EditText
+            android:id="@+id/m_password1"
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ciruclar_text_view"
+            android:drawableRight="@drawable/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="30dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_email1" />
+
+        <EditText
+            android:id="@+id/m_phone_number"
+            android:layout_width="360dp"
+            android:layout_height="80dp"
+
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:inputType="phone"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/ciruclar_text_view"
+            android:drawableRight="@drawable/phone_number"
+            android:hint="PhoneNumber"
+            android:padding="30dp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_password1" />
+
+        <Button
+            android:id="@+id/mm_button_sign15"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:onClick="message6"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="66dp"
+            android:background="@drawable/buttonsape"
+            android:text="sign up"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/m_phone_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2597278"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="378dp"
+            android:layout_height="15dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="238dp"
+            android:layout_marginEnd="12dp"
+
+            android:layout_marginBottom="206dp"
+            android:ems="10"
+            android:foreground="@drawable/homeshap"
+            android:inputType="textPersonName"
+            android:textColor="#0A0004"
+            android:textSize="30sp"
+
+
+
+            />
+
+
+
+
+
+        <View
+            android:layout_width="378dp"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+
+            android:layout_marginBottom="294dp"
+            android:background="@android:color/black" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="89dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="196dp"
+
+            android:layout_marginBottom="206dp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="167dp"
+            android:layout_height="66dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="204dp"
+
+            android:layout_marginBottom="212dp"
+            android:background="@drawable/tol"
+            android:text="Don't allow"
+            android:textColor="#384DD1"
+            android:textSize="24sp"
+
+            />
+
+        <Button
+            android:id="@+id/button115"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="34dp"
+
+            android:layout_marginBottom="221dp"
+            android:background="@drawable/br"
+            android:text="ok"
+            android:onClick="message6"
+            android:textColor="#384DD1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+
+
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="44dp"
+            android:gravity="center"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="318dp"
+            android:text='"FUR REAL" Would Like To access The camera for AR usage'
+            android:textAlignment="center"
+            android:textColor="#030003"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button115" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
